@@ -46,6 +46,12 @@ class Notification
      * @ORM\Column(type="string", length=255, nullable=true)
      */
     protected $link;
+    
+    /**
+     * @var string
+     * @ORM\Column(type="string", length=255, nullable=true)
+     */
+    protected $image;
 
     /**
      * @var NotifiableNotification[]|ArrayCollection
